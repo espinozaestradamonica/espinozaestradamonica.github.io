@@ -1,0 +1,18 @@
+[
+    {
+        "nombre": "Plantillas de presupuestos",
+        "link": "cont-planti.html"
+    },
+    {
+        "nombre": "Comparar eventos similares",
+        "link": "cont-compa.html"
+    },
+    {
+        "nombre": "Sugerencias personalizadas",
+        "link": "cont-suger.html"
+    },
+    {
+        "nombre": "Historial de calculos",
+        "link": "cont-histo.html"
+    }
+]

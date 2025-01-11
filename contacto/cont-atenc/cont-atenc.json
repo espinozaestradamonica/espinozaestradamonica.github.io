@@ -1,0 +1,42 @@
+[
+    {
+        "nombre": "Monica Espinoza Estrada",
+        "foto": "aten1.jpg",
+        "cargo": "Asesora de Eventos",
+        "descripcion": "Experta en organización de bodas y eventos corporativos. Aquí para ayudarte a planificar el evento perfecto.",
+        "contacto": {
+            "email": "monica.espinoza.estrada@monievent.com",
+            "celular": "67890123",
+            "redes": {
+                "instagram": "https://instagram.com/monica_monievent"
+            }
+        }
+    },
+    {
+        "nombre": "Willy Claure",
+        "foto": "aten2.jpg",
+        "cargo": "Coordinador de Presupuestos",
+        "descripcion": "Especialista en ajustar presupuestos y maximizar recursos para que cada evento sea único y especial.",
+        "contacto": {
+            "email": "willy.claure@monievent.com",
+            "celular": "70123456",
+            "redes": {
+                "instagram": "https://instagram.com/willy_monievent"
+            }
+        }
+    },
+    {
+        "nombre": "Lucia Jancko",
+        "foto": "aten3.jpg",
+        "cargo": "Coordinadora de Marketing",
+        "descripcion": "Experta en promover eventos en redes sociales, web y otros canales. Aquí para ayudarte a promocionar tu evento.",
+        "contacto": {
+            "email": "lucia.jancko@monievent.com",
+            "celular": "78900123",
+            "redes": {
+                "instagram": "https://instagram.com/lucia_monievent"
+            }
+        }
+    }
+
+]

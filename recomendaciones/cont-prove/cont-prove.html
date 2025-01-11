@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proveedores Sugeridos</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Estilos personalizados */
+        .hero-section {
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+                        url('https://source.unsplash.com/1600x900/?event,party') no-repeat center center;
+            background-size: cover;
+            color: white;
+            padding: 150px 0;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+        }
+
+        .card {
+            border-radius: 15px;
+            overflow: hidden;
+            transition: transform 0.3s ease-in-out;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        .btn-primary {
+            background-color: #ff6f61;
+            border-color: #ff6f61;
+            border: #ff5233;
+            transition: background-color 0.3s, transform 0.2s;
+        }
+        .btn-primary:hover {
+            background-color: #ff5233;
+            transform: translateY(-3px);
+        }
+        /*boton de regreso a index*/
+	    .boton{
+            display:inline-flex;
+            padding: 10px 20px;
+            background-color: #CB4335;
+            color: white;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 50px;
+            justify-content: center;
+        }
+
+        .boton:hover {
+            background-color: #F33318;
+            transform: scale(1.05);
+        }
+		
+		/*estilo del footer*/
+		footer{
+        background-color:#7B241C;
+        color: white;
+        padding: 5px;
+        text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- Sección Principal -->
+    <section class="hero-section text-center">
+        <div class="container">
+            <h1 class="display-3 fw-bold">Proveedores Recomendados</h1>
+            <p class="lead mt-4">Descubre los mejores proveedores para tu evento y optimiza tu presupuesto.</p>
+        </div>
+    </section>
+
+    <!-- Contenido de Proveedores -->
+    <div class="container my-5">
+        <div class="row" id="proveedores-container">
+            <!-- Aquí se cargarán los proveedores desde el archivo JSON -->
+        </div>
+    </div>
+
+    <!-- Bootstrap JS y Fetch -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="cont-prove.js"></script>
+
+
+    <!-- Botón para regresar -->
+    <div class="text-center mt-4">
+        <a href="../recomendaciones.html" class="boton btn-primary btn-lg">Volver Atras</a>
+    </div>
+    <!-- Botón para el footer -->
+	<footer>
+        <p> Espinoza Estrada Monica -- POTOSI - BOLIVIA -- @2025 Derechos Reservados </p>
+    </footer>
+</body>
+</html>

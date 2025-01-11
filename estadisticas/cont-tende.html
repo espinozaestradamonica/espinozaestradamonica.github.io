@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tendencias Generales</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        /* Estilo para la sección de encabezado */
+        .hero-section {
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+                        url('https://source.unsplash.com/1600x900/?event,celebration') no-repeat center center;
+            background-size: cover;
+            color: white;
+            padding: 150px 0;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+            background-color: #ff5233;
+        }
+        /* Estilo para las tarjetas */
+        .card {
+            border: none;
+            border-radius: 15px;
+            overflow: hidden;
+            transition: transform 0.3s, box-shadow 0.3s;
+            background-color: salmon;
+        }
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+        }
+        .card img {
+            height: 200px;
+            object-fit: cover;
+        }
+        /* Botón personalizado */
+        .btn-primary {
+            background-color: #A93226;
+            border: #A93226;
+            transition: background-color 0.3s, transform 0.2s;
+        }
+        .btn-primary:hover {
+            background-color: #F39C12;
+            transform: translateY(-3px);
+        }
+        /*boton de regreso a index*/
+	    .boton{
+            display:inline-flex;
+            padding: 10px 20px;
+            background-color: #FFA07A;
+            color: #A93226;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 50px;
+            justify-content: center;
+        }
+
+        .boton:hover {
+            background-color: #F39C12;
+        }
+        /*estilo del footer*/
+		footer{
+        background-color:#7B241C;
+        color: white;
+        padding: 5px;
+        text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- Sección Principal -->
+    <section class="hero-section text-center">
+        <div class="container">
+            <h1 class="display-3 fw-bold">Tendencias Generales</h1>
+            <p class="lead mt-4">¡Inspírate con las ideas más populares del momento y haz que tu evento sea inolvidable!</p>
+            <a href="#tendencias" class="btn btn-primary btn-lg mt-4">Explorar Tendencias</a>
+        </div>
+    </section>
+
+    <!-- Contenido Principal -->
+    <div class="container my-5" id="tendencias">
+        <div class="row g-4">
+            <!-- Tarjeta 1 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card shadow-sm">
+                    <img src="../images/tend1.jpg" class="card-img-top" alt="Decoraciones">
+                    <div class="card-body">
+                        <h5 class="card-title">Flores Naturales y Tonos Vibrantes</h5>
+                        <p class="card-text">Un enfoque elegante y natural que sigue conquistando bodas y eventos corporativos.</p>
+                        <a href="#" class="btn btn-primary"> Más detalles</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Tarjeta 2 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card shadow-sm">
+                    <img src="../images/tend2.jpg" class="card-img-top" alt="Bebidas">
+                    <div class="card-body">
+                        <h5 class="card-title">Barras de Espectáculo</h5>
+                        <p class="card-text">Las barras de coctelería donde el bartender realiza un show con la preparación de las bebidas son un éxito.</p>
+                        <a href="#" class="btn btn-primary"> Más detalles</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Tarjeta 3 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card shadow-sm">
+                    <img src="../images/tend3.jpg" class="card-img-top" alt="Iluminación">
+                    <div class="card-body">
+                        <h5 class="card-title">Iluminación Dinámica</h5>
+                        <p class="card-text">El uso de luces interactivas y proyecciones transforma los espacios de manera espectacular, logrando un gran evento.</p>
+                        <a href="#" class="btn btn-primary"> Más detalles</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Botón para regresar -->
+    <div class="text-center mt-4">
+        <a href="estadisticas.html" class="boton btn-primary btn-lg">Regresar al Inicio</a>
+    </div>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <footer>
+        <p> Espinoza Estrada Monica -- POTOSI - BOLIVIA -- @2025 Derechos Reservados </p>
+    </footer>
+</body>
+</html>

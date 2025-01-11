@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "nombre": "Eventos Xpress",
+        "categoria": "Catering",
+        "descripcion": "Proveedores de catering que cuentan con menús personalizados.",
+        "imagen": "image/prove1.jpg",
+        "web": "#"
+    },
+    {
+        "id": 2,
+        "nombre": "Decoraciones Elegantes",
+        "categoria": "Decoración",
+        "descripcion": "Decoraciones modernas y elegantes para bodas y eventos corporativos.",
+        "imagen": "image/prove2.jpeg",
+        "web": "#"
+    },
+    {
+        "id": 3,
+        "nombre": "Luz & Sonido Pro",
+        "categoria": "Sonido e Iluminación",
+        "descripcion": "Proveedores de sonido e iluminación para eventos de gran magnitud.",
+        "imagen": "image/prove3.jpg",
+        "web": "#"
+    }
+]

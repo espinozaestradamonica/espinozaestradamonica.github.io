@@ -1,0 +1,14 @@
+{
+    "reportes": [
+        {
+            "nombre": "Luzmila Carpio",
+            "email": "luzmila.carpio@example.com",
+            "descripcion": "Tengo algunos problemas con el soporte técnico."
+        },
+        {
+            "nombre": "William Luna",
+            "email": "william.luna@example.com",
+            "descripcion": "No puedo descargar la imagen de la pagina de tendencias."
+        }
+    ]
+}

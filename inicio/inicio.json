@@ -1,0 +1,18 @@
+[
+    {
+        "nombre": "Introduccion a la herramienta",
+        "link": "cont-intro.html"
+    },
+    {
+        "nombre": "Beneficios de planificar presupuestos",
+        "link": "cont-benef.html"
+    },
+    {
+        "nombre": "Ejemplos de eventos calculados",
+        "link": "cont-ejemp.html"
+    },
+    {
+        "nombre": "Noticias y tendencias en eventos",
+        "link": "cont-notic.html"
+    }
+]

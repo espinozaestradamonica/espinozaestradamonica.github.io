@@ -1,0 +1,21 @@
+[
+    {
+        "id": 1,
+        "titulo": "Espacios Económicos",
+        "descripcion": "Es una gran opcion en considerar para realizar eventos en lugares publicos, como parques, jardines, bosques, etc. Ademas que tendria un calido aire a la naturaleza",
+        "icono": "fa-location-pin"
+    },
+    {
+        "id": 2,
+        "titulo": "Alimentos y Bebidas",
+        "descripcion": "La idea de realizar una mesa de snacks y jugos naturales caseros, se debe de considerar ya que serian muy aceptados por tus invitados.",
+        "icono": "fa-utensils"
+    },
+    {
+        "id": 3,
+        "titulo": "Invitaciones Digitales",
+        "descripcion": "Gracias a la tecnólogia se puede diseñar hermosas invitaciones digitales a un bajo costo y al alcanse de todos, ya que podras enviarlos por cualquier red social.",
+        "icono": "fa-hand-holding-heart"
+    }
+    
+]

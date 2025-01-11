@@ -1,0 +1,18 @@
+[
+    {
+        "nombre": "Categorías de gastos más comunes",
+        "link": "cont-cate.html"
+    },
+    {
+        "nombre": "Costos promedio por tipo de evento",
+        "link": "cont-cost.html"
+    },
+    {
+        "nombre": "Comparación por región",
+        "link": "cont-compara.html"
+    },
+    {
+        "nombre": "Tendencias generales",
+        "link": "cont-tende.html"
+    }
+]

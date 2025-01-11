@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparación por Región</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Estilos personalizados */
+        .hero-section {
+            background: url('https://source.unsplash.com/1600x900/?event,location') no-repeat center center;
+            background-size: cover;
+            color: white;
+            text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+            padding: 100px 0;
+            background-color: salmon;
+        }
+        .hero-overlay {
+            background-color: #A93226;
+            padding: 50px;
+            border-radius: 10px;
+        }
+        .card {
+            border: none;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+            background-color: salmon;
+        }
+        .card img {
+            height: 150px;
+            object-fit: cover;
+        }
+        .btn{
+            background-color: #A93226;
+            border: #7B241C;
+            color: white;
+        }
+        .btn:hover{
+            background-color: #F39C12 ;
+            color: white;
+        }
+        /*boton de regreso a index*/
+	    .boton{
+            display:inline-flex;
+            padding: 10px 20px;
+            background-color: #FFA07A;
+            color: #A93226;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 50px;
+            justify-content: center;
+        }
+
+        .boton:hover {
+            background-color: #F39C12;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero-section d-flex align-items-center">
+        <div class="container text-center hero-overlay">
+            <h1 class="display-4">Comparación por Región</h1>
+            <p class="lead">Explora las diferencias en costos de eventos según tu ubicación. Compara precios y planifica de manera inteligente para garantizar el éxito de tu evento.</p>
+        </div>
+    </section>
+
+    <!-- Comparación por Región -->
+    <div class="container my-5" id="comparacion">
+        <h2 class="text-center mb-4">Costo Promedio por Región</h2>
+        <div class="row g-4">
+            <!-- Tarjeta de Región 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="../images/comp1.jpg" class="card-img-top" alt="Ciudad">
+                    <div class="card-body">
+                        <h5 class="card-title">Región Norte</h5>
+                        <p class="card-text">Costo promedio: <strong>Bs. 20,000</strong></p>
+                        <p class="card-text">Eventos destacados: Fiestas en piscinas, Aniversarios, etc.</p>
+                        <a href="#" class="btn btn-outline-primary">Más detalles</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Tarjeta de Región 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="../images/comp2.jpg" class="card-img-top" alt="Playa">
+                    <div class="card-body">
+                        <h5 class="card-title">Región Sur</h5>
+                        <p class="card-text">Costo promedio: <strong>Bs. 15,000</strong></p>
+                        <p class="card-text">Eventos destacados: Bodas, Aniversarios, Conferencias, etc.</p>
+                        <a href="#" class="btn btn-outline-primary">Más detalles</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Tarjeta de Región 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="../images/comp3.jpg" class="card-img-top" alt="Montaña">
+                    <div class="card-body">
+                        <h5 class="card-title">Región Central</h5>
+                        <p class="card-text">Costo promedio: <strong>Bs. 18,000</strong></p>
+                        <p class="card-text">Eventos destacados: Reuniones corporativas, conciertos, etc.</p>
+                        <a href="#" class="btn btn-outline-primary">Más detalles</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Botón para regresar -->
+    <div class="text-center mt-4">
+        <a href="estadisticas.html" class="boton btn-primary btn-lg">Regresar al Inicio</a>
+    </div>
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2025 Espinoza Estrada Monica - Todos los derechos reservados   Potosí - Bolivia</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

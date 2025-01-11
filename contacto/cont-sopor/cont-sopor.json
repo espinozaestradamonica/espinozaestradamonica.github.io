@@ -1,0 +1,18 @@
+[
+    {
+        "question": "¿Cómo inicio el cálculo del presupuesto?",
+        "answer": "Accede a la sección de crear de presupuesto, ingresa los detalles como el número de invitados, tipo de comida, y decoración. Nuestro sistema te dará un cálculo inmediato."
+    },
+    {
+        "question": "¿Qué tipo de eventos puedo planear?",
+        "answer": "Puedes planear bodas, cumpleaños, eventos corporativos y cualquier otro evento que necesite un presupuesto."
+    },
+    {
+        "question": "¿Cómo puedo contactar al soporte?",
+        "answer": "Envíanos un correo a soporte@Moni-Eventos.com o utiliza el formulario en esta página."
+    },
+    {
+        "question": "¿Puedo modificar mi presupuesto?",
+        "answer": "Sí, puedes editar los detalles de tu presupuesto en cualquier momento desde tu cuenta."
+    }
+]

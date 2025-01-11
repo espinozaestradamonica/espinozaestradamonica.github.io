@@ -1,0 +1,39 @@
+[
+    {
+        "id": 1,
+        "titulo": "Define tu presupuesto inicial",
+        "descripcion": "Establece un presupuesto base para saber cuánto puedes gastar antes de planificar cada detalle del evento.",
+        "icono": "fa-wallet"
+    },
+    {
+        "id": 2,
+        "titulo": "Elige proveedores locales",
+        "descripcion": "Optar por proveedores locales reduce costos de transporte y apoya a negocios cercanos.",
+        "icono": "fa-store"
+    },
+    {
+        "id": 3,
+        "titulo": "Aprovecha paquetes todo incluido",
+        "descripcion": "Busca servicios que ofrezcan paquetes integrales para ahorrar tiempo y dinero.",
+        "icono": "fa-box"
+    },
+    {
+        "id": 4,
+        "titulo": "Revisa y negocia contratos",
+        "descripcion": "Analiza los contratos para asegurarte de que todo lo que necesitas esté cubierto sin costos adicionales.",
+        "icono": "fa-file-contract"
+    },
+    {
+        "id": 4,
+        "titulo": "Contacta artistas musicales",
+        "descripcion": "Asegurate de contactar con tiempo de anticipación a tu Dj o Grupo musical favorito y asi tenerlo en tu evento.",
+        "icono": "fa-music"
+    },
+    {
+        "id": 4,
+        "titulo": "Planea las mejores fechas",
+        "descripcion": "Analiza las fechas para asegurarte de que no coincidan con fechas inoportunas para no tener costos adicionales.",
+        "icono": "fa-calendar-days"
+    }
+    
+]

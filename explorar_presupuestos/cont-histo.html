@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historial de Cálculos</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Estilos personalizados */
+        body {
+            background-color: #CB4335;
+        }
+        .header {
+            background: linear-gradient(135deg, #A93226,#F39C12);
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        .table-container {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+        /*boton de regreso a index*/
+	    .boton{
+            display:inline-flex;
+            padding: 10px 20px;
+            background-color: #FFA07A;
+            color: #A93226;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 50px;
+            justify-content: center;
+        }
+
+        .boton:hover {
+            background-color: #F39C12;
+        }
+        
+    </style>
+</head>
+<body>
+
+    <!-- Encabezado -->
+    <header class="header">
+        <h1>Historial de Cálculos</h1>
+        </br>
+        <p>"Moni_Event" te muestra nuestro historial de calculos de nuestro eventos, esperando que re sean de gran ayuda</p>
+    </header>
+
+    <!-- Contenido principal -->
+    <main class="container my-5">
+        <div class="table-container">
+            <!-- Tabla del historial -->
+            <table class="table table-striped table-hover">
+                <thead class="table-primary">
+                    <tr>
+                        <th>Cod</th>
+                        <th>Fecha</th>
+                        <th>Descripción</th>
+                        <th>Costo Total</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>14-02-2025</td>
+                        <td>Cotización para boda</td>
+                        <td>Bs. 10,500</td>
+                        <td>
+                            <button class="btn btn-sm btn-info">Modificar</button>
+                            <button class="btn btn-sm btn-danger">Eliminar</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>27-05-2025</td>
+                        <td>Fiesta de cumpleaños</td>
+                        <td>Bs. 2,300</td>
+                        <td>
+                            <button class="btn btn-sm btn-info">Modificar</button>
+                            <button class="btn btn-sm btn-danger">Eliminar</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>06-08-2025</td>
+                        <td>Conferencia empresarial</td>
+                        <td>Bs. 5,750</td>
+                        <td>
+                            <button class="btn btn-sm btn-info">Modificar</button>
+                            <button class="btn btn-sm btn-danger">Eliminar</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Botón para regresar -->
+        <div class="text-center mt-4">
+            <a href="explorar_presupuestos.html" class="boton btn-primary btn-lg">Regresar al Inicio</a>
+        </div>
+    </main>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

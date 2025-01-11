@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+    <item>
+        <nombre>Inicio</nombre>
+        <link>inicio/inicio.html</link>
+    </item>
+    <item>
+        <nombre>Crear presupuesto</nombre>
+        <link>crear_presupuesto/crear_presupuesto.html</link>
+    </item>
+    <item>
+        <nombre>Explorar presupuestos previos</nombre>
+        <link>explorar_presupuestos/explorar_presupuestos.html</link>
+    </item>
+    <item>
+        <nombre>Estadisticas</nombre>
+        <link>estadisticas/estadisticas.html</link>
+    </item>
+    <item>
+        <nombre>Recomendaciones</nombre>
+        <link>recomendaciones/recomendaciones.html</link>
+    </item>
+    <item>
+        <nombre>Recursos</nombre>
+        <link>recursos/recursos.html</link>
+    </item>
+    <item>
+        <nombre>FAQ</nombre>
+        <link>faq/faq.html</link>
+    </item>
+    <item>
+        <nombre>Contacto</nombre>
+        <link>contacto/contacto.html</link>
+    </item>
+</menu>

@@ -1,0 +1,35 @@
+{
+    "redesSociales": [
+      {
+        "nombre": "Facebook",
+        "url": "https://www.facebook.com/Moni_Event",
+        "icono": "fab fa-facebook-square",
+        "color": "#3b5998"
+      },
+      {
+        "nombre": "Instagram",
+        "url": "https://www.instagram.com/Moni_Event",
+        "icono": "fab fa-instagram",
+        "color": "#E4405F"
+      },
+      {
+        "nombre": "Whatsapp",
+        "url": "https://whatsapp.com/Moni_Event",
+        "icono": "fab fa-whatsapp",
+        "color": "#25D366"
+      },
+      {
+        "nombre": "TikTok",
+        "url": "https://www.tiktok.com/Moni_Event",
+        "icono": "fab fa-tiktok",
+        "color": "#010101"
+      },
+      {
+        "nombre": "YouTube",
+        "url": "https://www.youtube.com/c/Moni_Event",
+        "icono": "fab fa-youtube",
+        "color": "#FF0000"
+      }
+    ]
+  }
+  

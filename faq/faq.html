@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preguntas Frecuentes</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #CD6155  ;
+        }
+        .faq-category {
+            cursor: pointer;
+            transition: background-color 0.3s;
+            color: white;
+            font-weight: bold;
+            border: yellow;
+            background: linear-gradient(135deg, #A93226, #F39C12);
+        }
+        .faq-category:hover {
+            background-color: #F39C12;
+            color: yellow;
+        }
+        .faq-answer {
+            display: none;
+        }
+
+        /*boton de regreso a index*/
+	    .boton{
+            display:inline-flex;
+            padding: 10px 20px;
+            background-color: #FFA07A;
+            color: #A93226;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 50px;
+            justify-content: center;
+        }
+
+        .boton:hover {
+            background-color: #F39C12;
+        }
+    </style>
+</head>
+<body>
+    <div class="container my-5">
+        <h1 class="text-center mb-4">Preguntas Frecuentes</h1>
+        <div id="faq-container" class="accordion" role="tablist"></div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- FAQ JavaScript -->
+    <script src="faq.js"></script>
+
+    <div class="text-center mt-4">
+        <a href="../index.html" class="boton btn-primary btn-lg">Regresar al Inicio</a>
+    </div>
+</body>
+</html>

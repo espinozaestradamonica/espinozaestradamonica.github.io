@@ -1,0 +1,21 @@
+[
+    {
+        "id": 1,
+        "titulo": "Lista de Proveedores Populares",
+        "descripcion": "Acudir a dicha lista con el objetivo de ver las mejores opciones.",
+        "icono": "fa-file-contract"
+    },
+    {
+        "id": 2,
+        "titulo": "Guía para Negociar Efectivamente",
+        "descripcion": "Optar por una buena comunicación y tener buscar buenas propuestas.",
+        "icono": "fa-handshake"
+    },
+    {
+        "id": 3,
+        "titulo": "Plantillas de Propuestas",
+        "descripcion": "Seran de gran ayuda para tener una mejor organización y eficaz.",
+        "icono": "fa-folder-open"
+    }
+    
+]

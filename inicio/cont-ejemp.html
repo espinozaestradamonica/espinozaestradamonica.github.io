@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplos de Eventos Calculados</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /*todo contenerdor*/
+        .container {
+            background-color: #FADBD8 ;
+            padding: 80px 0;
+            color: black ;
+            font-weight: bold;
+        }
+    
+        .event-card {
+            transition: transform 0.3s ease;
+            height: 100%;
+            background-color: #F5B7B1 ;
+        }
+        
+        .event-card:hover {
+            transform: translateY(-10px);
+        }
+        
+        .budget-tag {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background-color: #F39C12;
+            color: white;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-weight: bold;
+            
+        }
+
+        .detail-list {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        .detail-list li {
+            padding: 8px 0;
+            border-bottom: 1px solid #eee;
+        }
+
+        .detail-list li:last-child {
+            border-bottom: none;
+        }
+
+        .category-badge {
+            font-size: 0.8em;
+            padding: 5px 10px;
+            margin-right: 5px;
+            margin-bottom: 5px;
+            display: inline-block;
+        }
+        
+    </style>
+</head>
+<body>
+
+<section class="py-5 bg-light">
+    <div class="container">
+        <!-- Encabezado de la sección -->
+        <div class="row mb-5 text-center">
+            <div class="col-lg-8 mx-auto">
+                <h2 class="display-4 mb-3">Ejemplos de Eventos</h2>
+                <p<>Descubre cómo otros han planificado sus eventos y sus presupuestos</p>
+            </div>
+        </div>
+
+        <!-- Filtros -->
+        <div class="row mb-4">
+            <div class="col-12">
+                <div class="d-flex justify-content-center flex-wrap gap-2">
+                    <button class="btn btn-outline-primary">Todos</button>
+                    <button class="btn btn-outline-primary">Bodas</button>
+                    <button class="btn btn-outline-primary">Corporativos</button>
+                    <button class="btn btn-outline-primary">Cumpleaños</button>
+                    <button class="btn btn-outline-primary">Graduaciones</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tarjetas de eventos -->
+        <div class="row g-4">
+            <!-- Boda -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card event-card shadow-sm">
+                    <div class="budget-tag">Bs.15,000</div>
+                    <div class="card-body">
+                        <h5 class="card-title">Boda Elegante</h5>
+                        <p class="card-text text-muted">150 invitados | Jardín al aire libre</p>
+                        <div class="mb-3">
+                            <span class="badge bg-primary category-badge">Catering</span>
+                            <span class="badge bg-info category-badge">Decoración</span>
+                            <span class="badge bg-success category-badge">Música</span>
+                        </div>
+                        <ul class="detail-list">
+                            <li><strong>Catering:</strong> Bs. 7,500 (50%)</li>
+                            <li><strong>Decoración:</strong> Bs. 3,000 (20%)</li>
+                            <li><strong>Música:</strong> Bs. 1,500 (10%)</li>
+                            <li><strong>Otros:</strong> Bs. 3,000 (20%)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Evento Corporativo -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card event-card shadow-sm">
+                    <div class="budget-tag">Bs. 8,000</div>
+                    <div class="card-body">
+                        <h5 class="card-title">Conferencia Empresarial</h5>
+                        <p class="card-text text-muted">100 asistentes | Salón de hotel</p>
+                        <div class="mb-3">
+                            <span class="badge bg-primary category-badge">Pantalla</span>
+                            <span class="badge bg-info category-badge">Tecnología</span>
+                            <span class="badge bg-success category-badge">Catering</span>
+                        </div>
+                        <ul class="detail-list">
+                            <li><strong>Pantalla:</strong> Bs. 3,200 (40%)</li>
+                            <li><strong>Tecnología:</strong> Bs. 2,400 (30%)</li>
+                            <li><strong>Catering:</strong> Bs. 1,600 (20%)</li>
+                            <li><strong>Otros:</strong> Bs.800 (10%)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Fiesta de Cumpleaños -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card event-card shadow-sm">
+                    <div class="budget-tag">Bs.2,500</div>
+                    <div class="card-body">
+                        <h5 class="card-title">Fiesta de Cumpleaños</h5>
+                        <p class="card-text text-muted">50 invitados | Jardín privado</p>
+                        <div class="mb-3">
+                            <span class="badge bg-primary category-badge">Decoración</span>
+                            <span class="badge bg-info category-badge">Comida</span>
+                            <span class="badge bg-success category-badge">Entretenimiento</span>
+                        </div>
+                        <ul class="detail-list">
+                            <li><strong>Decoración:</strong> Bs. 750 (30%)</li>
+                            <li><strong>Comida:</strong> Bs. 1,000 (40%)</li>
+                            <li><strong>Entretenimiento:</strong> Bs. 500 (20%)</li>
+                            <li><strong>Otros:</strong> Bs. 250 (10%)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Botón de regreso a inicio -->
+        <div class="row mt-5">
+            <div class="col-12 text-center">
+                <a href="inicio.html" class="btn btn-primary btn-lg">Regresar a Inicio</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+[
+    {
+        "nombre": "Soporte técnico",
+        "link": "cont-sopor/cont-sopor.html"
+    },
+    {
+        "nombre": "Redes Sociales",
+        "link": "cont-redes/cont-redes.html"
+    },
+    {
+        "nombre": "Atención personalizada",
+        "link": "cont-atenc/cont-atenc.html"
+    },
+    {
+        "nombre": "Reportar problemas",
+        "link": "cont-report/cont-report.html"
+    }
+]

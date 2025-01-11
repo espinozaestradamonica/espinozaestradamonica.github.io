@@ -1,0 +1,40 @@
+{
+  "faqs": [
+    {
+      "category": "¿Cómo calcular un presupuesto?",
+      "questions": [
+        {
+          "question": "¿Cómo calcular un presupuesto?",
+          "answer": "Para calcular un presupuesto, ingresa los datos de tus necesidades en el formulario de Crear Presupuesto y presiona 'Guardar Cálculo'. La herramienta hará los cálculos automáticamente."
+        }
+      ]
+    },
+    {
+      "category": "Modificación de Datos",
+      "questions": [
+        {
+          "question": "Modificación de Datos",
+          "answer": "Puedes editar los datos directamente en los campos del formulario de Crear Presupuesto, tambien seleccionar otro tipo de evento si lo deseas."
+        }
+      ]
+    },
+    {
+      "category": "Guardar y Exportar Cálculos",
+      "questions": [
+        {
+          "question": "Guardar y Exportar Cálculos",
+          "answer": "Una vez que se obtenga el cálculo final, utiliza el boton de Guardar Cálculo para almacenar localmente y Exportar para generar un archivo en formato PDF o Excel."
+        }
+      ]
+    },
+    {
+      "category": "Consultas Generales",
+      "questions": [
+        {
+          "question": "Consultas Generales",
+          "answer": "Si surgen mas dudas, consulta nuestra sección de reporte de problemas o contáctanos a través de nuestras redes sociales y tambien mediante nuestro correo electrónico que está disponible en nuestra página."
+        }
+      ]
+    }
+  ]
+}

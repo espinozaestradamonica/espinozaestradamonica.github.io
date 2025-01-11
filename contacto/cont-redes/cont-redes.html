@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Redes Sociales - Moni_Event</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #D68910 ;
+    }
+    .hero-section {
+      background: linear-gradient(135deg, #A93226, #F39C12), 
+                  url('https://source.unsplash.com/1600x900/?events,networking') no-repeat center center;
+      background-size: cover;
+      color: white;
+      padding: 100px 0;
+      text-align: center;
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+    }
+    .hero-section h1 {
+      font-size: 3rem;
+      font-weight: bold;
+    }
+    .hero-section p {
+      font-size: 1.2rem;
+    }
+    .btn{
+        background-color: #CB4335;
+        color: white;
+        border: #7B241C;
+    }
+    .btn:hover{
+        background-color: #F33318;
+        transform: scale(1.05);
+    }
+    /*boton de regreso a index*/
+    .boton{
+            display:inline-flex;
+            padding: 10px 20px;
+            background-color: #CB4335;
+            color: white;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 50px;
+            justify-content: center;
+        }
+        .boton:hover {
+            background-color: #F33318;
+            transform: scale(1.10);
+        }
+		/*estilo del footer*/
+		footer{
+        background-color:#7B241C;
+        color: white;
+        padding: 5px;
+        text-align: center;
+        }
+    </style>
+  </style>
+</head>
+<body>
+  <!-- Sección de Encabezado -->
+  <section class="hero-section">
+    <h1>Conecta con Nosotros</h1>
+    <p>Sigue a Moni_Event en todas nuestras redes sociales y no te pierdas ninguna actualización.</p>
+  </section>
+
+  <!-- Contenedor de Redes Sociales -->
+  <div class="container my-5">
+    <div class="row" id="social-media-container">
+      <!-- Las tarjetas de redes sociales se cargarán dinámicamente aquí -->
+    </div>
+
+    <!-- Botón para regresar -->
+  <div class="text-center mt-4">
+    <a href="../contacto.html" class="boton btn-primary btn-lg">Regresar Atras</a>
+</div>
+  </div>
+  
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Script JS -->
+  <script src="cont-redes.js"></script>
+
+	<footer>
+        <p> Espinoza Estrada Monica -- Potosi - Bolivia -- @2025 Derechos Reservados </p>
+    </footer>
+</body>
+</html>
